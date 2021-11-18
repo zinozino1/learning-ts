@@ -26,7 +26,12 @@ person.age = 101;
 // 진위값
 let isLogin: boolean = false;
 
-let ex1: string = "aa";
-let ex2: number = 10;
-let ex3: string[] = ["11", "22"];
-let ex4: [number, string] = [30, "1111"];
+let ex1: string = "aa"; // 문자열
+let ex2: number = 10; // 숫자,
+let ex3: string[] = ["11", "22"]; // 배열
+let ex4: [number, string] = [30, "1111"]; // 튜플
+let ex5: object = { a: 30 }; // 간단한 객체;
+let ex6: { a: number; b: number } = { a: 20, b: 30 }; /// ** 구체적인 객체
+let ex7: boolean = true;
+
+let ex8: { a: number; b: string } = { a: 30, b: "string" };

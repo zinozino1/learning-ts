@@ -21,10 +21,31 @@ function add(a: number, b: number): number {
 function log(a: string) {
   console.log(a);
 }
-log('a', 10);
+log("a", 10);
 
 // 함수 옵셔널 파라미터(optional parameter)
 function printText(text: string, type?: string) {
+  // 옵셔널 파라미터
   console.log(text);
 }
-printText('hi');
+printText("hi");
+
+function S(a: number, b: number): number {
+  return a + b;
+}
+const adddd = (a: number = 20, b?: number = 40): void => {
+  console.log(1);
+};
+
+const test = (...args: any[]) => {
+  console.log(args);
+};
+
+test(1, 2, 3);
+
+function test2(a: string, b?: number): string {
+  console.log(b);
+  return "hello :" + a;
+}
+
+test2("fuck", 400);
