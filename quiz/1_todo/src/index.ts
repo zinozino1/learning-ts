@@ -58,9 +58,7 @@ function addTwoTodoItems(): void {
 }
 
 // NOTE: 유틸 함수
-function log(): void {
-  console.log(todoItems);
-}
+function log(): void {}
 
 todoItems = fetchTodoItems();
 addTwoTodoItems();
